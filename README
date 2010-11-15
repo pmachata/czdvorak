@@ -1,0 +1,7 @@
+This is a modification of Programmer Dvorak (dvp) for users that do
+light-weight Czech typing.  Czech letters with diacritics are
+accessible through level 3 shift (such as is typically available
+through AltGr).
+
+Use for example like this:
+setxkbmap -symbols 'pc+czdvorak(dvp)+level3(ralt_switch)'
