@@ -1,0 +1,10 @@
+-*-org-*-
+* Bugs
+** doesn't contain ě, s3+e gives é
+   Which of them is used more frequently?  If the other one is not
+   used very often, we can simply omit it, just like we do with ú.
+
+* Features
+** is ú actually used less often than ů?
+   If both are used often enough, we can put the other one to some
+   other letter.
