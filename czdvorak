@@ -36,7 +36,7 @@ xkb_symbols "dvp" {
 
     key <AC01> { [ a,               A,              aacute,          Aacute     ] };
     key <AC02> { [ o,               O,              oacute,          Oacute     ] };
-    key <AC03> { [ e,               E,              eacute,          Eacute     ] };
+    key <AC03> { [ e,               E,              ecaron,          Ecaron     ] };
     key <AC04> { [ u,               U,              uring,           Uring      ] };
     key <AC05> { [ i,               I,              iacute,          Iacute     ] };
     key <AC06> { [ d,               D,              dcaron,          Dcaron     ] };
