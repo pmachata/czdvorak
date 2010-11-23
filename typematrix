@@ -1,0 +1,15 @@
+partial alphanumeric_keys
+xkb_symbols "rot_controls" {
+    key <LCTL> {
+        type[Group1] = "TWO_LEVEL",
+        symbols[Group1] = [ Tab, ISO_Left_Tab ]
+    };
+    key <TAB> {
+        type[Group1] = "TWO_LEVEL",
+	symbols[Group1] = [ Shift_L, Shift_L ]
+    };
+    key <LFSH> {
+        type[Group1] = "TWO_LEVEL",
+	symbols[Group1] = [ Control_L, Control_L ]
+    };
+};
