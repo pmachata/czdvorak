@@ -58,4 +58,5 @@ xkb_symbols "dvp" {
     key <AB10> { [ z,               Z,              zcaron,          Zcaron     ] };
 
     key <BKSL> { [ backslash,       bar                                         ] };
+    key <SPCE> { [ space,           space,          nobreakspace                ] };
 };
