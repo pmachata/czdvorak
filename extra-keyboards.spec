@@ -1,5 +1,5 @@
 Name:		extra-keyboards
-Version:	0.2
+Version:	0.3
 Release:	1%{?dist}
 Summary:	Extra keyboards for X server
 
@@ -46,6 +46,9 @@ done
 %{datadir_xkb_symbols}/*
 
 %changelog
+* Sat Oct 29 2011 Petr Machata <pmachata@redhat.com> - 0.3-1
+- Add dead_hook to AltGr+/ (mnemonic: the same key as "?")
+
 * Tue Nov 23 2010 Petr Machata <pmachata@redhat.com> - 0.2-1
 - Replace ecaron for eacute
 - Add the keyswaps keyboard

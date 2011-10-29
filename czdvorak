@@ -31,7 +31,7 @@ xkb_symbols "dvp" {
     key <AD08> { [ c,               C,              ccaron,          Ccaron     ] };
     key <AD09> { [ r,               R,              rcaron,          Rcaron     ] };
     key <AD10> { [ l,               L                                           ] };
-    key <AD11> { [ slash,           question                                    ] };
+    key <AD11> { [ slash,           question,       dead_hook                   ] };
     key <AD12> { [ at,              asciicircum                                 ] };
 
     key <AC01> { [ a,               A,              aacute,          Aacute     ] };
