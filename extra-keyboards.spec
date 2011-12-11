@@ -1,5 +1,5 @@
 Name:		extra-keyboards
-Version:	0.3
+Version:	0.4
 Release:	1%{?dist}
 Summary:	Extra keyboards for X server
 
@@ -46,6 +46,9 @@ done
 %{datadir_xkb_symbols}/*
 
 %changelog
+* Sun Dec 11 2011 Petr Machata <pmachata@redhat.com> - 0.4-1
+- Add dead_horn to AltGr+h
+
 * Sat Oct 29 2011 Petr Machata <pmachata@redhat.com> - 0.3-1
 - Add dead_hook to AltGr+/ (mnemonic: the same key as "?")
 

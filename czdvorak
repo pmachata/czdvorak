@@ -40,7 +40,7 @@ xkb_symbols "dvp" {
     key <AC04> { [ u,               U,              uring,           Uring      ] };
     key <AC05> { [ i,               I,              iacute,          Iacute     ] };
     key <AC06> { [ d,               D,              dcaron,          Dcaron     ] };
-    key <AC07> { [ h,               H                                           ] };
+    key <AC07> { [ h,               H,              dead_horn                   ] };
     key <AC08> { [ t,               T,              tcaron,          Tcaron     ] };
     key <AC09> { [ n,               N,              ncaron,          Ncaron     ] };
     key <AC10> { [ s,               S,              scaron,          Scaron     ] };
