@@ -44,7 +44,7 @@ xkb_symbols "dvp" {
     key <AC08> { [ t,               T,              tcaron,          Tcaron     ] };
     key <AC09> { [ n,               N,              ncaron,          Ncaron     ] };
     key <AC10> { [ s,               S,              scaron,          Scaron     ] };
-    key <AC11> { [ minus,           underscore,     dead_macron                 ] };
+    key <AC11> { [ minus,           underscore,     dead_stroke,     dead_macron ] };
 
     key <AB01> { [ apostrophe,      quotedbl,       dead_acute,      dead_doubleacute ] };
     key <AB02> { [ q,               Q                                           ] };

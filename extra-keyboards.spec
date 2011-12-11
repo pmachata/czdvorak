@@ -1,5 +1,5 @@
 Name:		extra-keyboards
-Version:	0.4
+Version:	0.5
 Release:	1%{?dist}
 Summary:	Extra keyboards for X server
 
@@ -46,6 +46,10 @@ done
 %{datadir_xkb_symbols}/*
 
 %changelog
+* Sun Dec 11 2011 Petr Machata <pmachata@redhat.com> - 0.5-1
+- Add dead_stroke to AltGr+minus, move dead_macron to
+  AltGr+Shift+underscore
+
 * Sun Dec 11 2011 Petr Machata <pmachata@redhat.com> - 0.4-1
 - Add dead_horn to AltGr+h
 
