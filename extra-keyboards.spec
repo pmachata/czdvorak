@@ -1,5 +1,5 @@
 Name:		extra-keyboards
-Version:	0.5
+Version:	0.6
 Release:	1%{?dist}
 Summary:	Extra keyboards for X server
 
@@ -7,6 +7,7 @@ Group:          User Interface/X
 License:	Public Domain
 Source0:	czdvorak
 Source1:	typematrix
+Source2:	mirror
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 Requires:	xkeyboard-config
@@ -34,7 +35,7 @@ keyboards.  This is mostly to suit myself.
 
 %install
 install -d $RPM_BUILD_ROOT%{datadir_xkb_symbols}
-for source in %{SOURCE0} %{SOURCE1}; do
+for source in %{SOURCE0} %{SOURCE1} %{SOURCE2}; do
     install -m 644 $source $RPM_BUILD_ROOT%{datadir_xkb_symbols}
 done
 
@@ -46,6 +47,9 @@ done
 %{datadir_xkb_symbols}/*
 
 %changelog
+* Tue Jun 19 2012 Petr Machata <pmachata@redhat.com> - 0.6-1
+- Add a mirrored dvorak keyboard
+
 * Sun Dec 11 2011 Petr Machata <pmachata@redhat.com> - 0.5-1
 - Add dead_stroke to AltGr+minus, move dead_macron to
   AltGr+Shift+underscore
