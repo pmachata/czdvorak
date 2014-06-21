@@ -1,5 +1,5 @@
 Name:		extra-keyboards
-Version:	0.6
+Version:	0.7
 Release:	1%{?dist}
 Summary:	Extra keyboards for X server
 
@@ -24,8 +24,10 @@ do light-weight Czech typing.  Czech letters with diacritics are
 accessible through level 3 shift (such as is typically available
 through AltGr).
 
-Another extra keyboard is a set of key swaps for type matrix
-keyboards.  This is mostly to suit myself.
+Another set of two keyboards is for left-handed typing, such that the
+right half of the keyboard is accessible via level 3 shift.  One is
+for a fairly ordinary keyboard, and another specifically for Kinesis
+Advantage.
 
 %prep
 :
@@ -39,14 +41,14 @@ for source in %{SOURCE0} %{SOURCE1} %{SOURCE2}; do
     install -m 644 $source $RPM_BUILD_ROOT%{datadir_xkb_symbols}
 done
 
-%clean
-:
-
 %files
 %defattr(-,root,root,-)
 %{datadir_xkb_symbols}/*
 
 %changelog
+* Sat Jun 21 2014 Petr Machata <pmachata@redhat.com> - 0.7-1
+- Add a mirrored dvorak layout for Kinesis Advantage keyboard
+
 * Tue Jun 19 2012 Petr Machata <pmachata@redhat.com> - 0.6-1
 - Add a mirrored dvorak keyboard
 
