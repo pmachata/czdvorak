@@ -1,5 +1,5 @@
 Name:		extra-keyboards
-Version:	0.7
+Version:	0.8
 Release:	1%{?dist}
 Summary:	Extra keyboards for X server
 
@@ -46,6 +46,9 @@ done
 %{datadir_xkb_symbols}/*
 
 %changelog
+* Mon Aug  8 2016 Petr Machata <petrm@mellanox.com> - 0.8-1
+- Map End to Escape in czdvorak and mirror kinesis layouts.
+
 * Sat Jun 21 2014 Petr Machata <pmachata@redhat.com> - 0.7-1
 - Add a mirrored dvorak layout for Kinesis Advantage keyboard
 

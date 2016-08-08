@@ -133,5 +133,5 @@ xkb_symbols "kinesis" {
     key <BKSP> { [ BackSpace,       BackSpace,      space,           space      ] };
     key <DELE> { [ Delete,          Delete,         Return,          Return     ] };
     key <HOME> { [ Home,            Home,           Prior,           Prior      ] };
-    key <END>  { [ End,             End,            Next,            Next       ] };
+    key <END>  { [ Escape,          End,            Next,            Next       ] };
 };
